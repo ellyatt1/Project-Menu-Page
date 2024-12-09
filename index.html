@@ -105,6 +105,7 @@
 
       .column2 {
         width: 424px;
+        height: 707px;
         float: left;
         display: block;
         margin-left: 20px;
@@ -134,6 +135,28 @@
         display: inline-block;
         text-align: center;
 
+      }
+      
+      .buttonlink a:hover {
+       background: white;
+        color: black;
+        border: 2px solid black;
+        font-family: "inter";
+        font-size: 32px;
+        font-weight: Bold;
+        text-decoration: none;
+        padding: 8px 0px;
+        border-radius: 30px;
+        display: inline-block;
+        text-align: center; 
+        
+      }
+
+      .backbuttonspace {
+        width: 1440px;
+        height: 206px;
+        position: relative;
+        float: left;
       }
 
       .dot {
@@ -174,7 +197,7 @@
         <h4 style="text-align: left; margin-bottom: 16px">
           GBDA 202: WYAWYG
         </h4>
-        <p style="text-align: left; margin-bottom: 64px;">
+        <p style="text-align: left; margin-bottom: 64px; height: 96px;">
           Hi, my name is Andrew Ellyatt, I am a 2nd year Global business and Digital arts student at the University of Waterloo with an interest in the world of design! 
         </p>
         <div class="buttonlink">
@@ -192,15 +215,13 @@
         <h4 style="text-align: left; margin-bottom: 16px">
           GBDA 202: Re-Brand it!
         </h4>
-        <p style="text-align: left; margin-bottom: 64px;">
+        <p style="text-align: left; margin-bottom: 64px; height: 96px;">
           Hi, my name is Andrew Ellyatt, I am a 2nd year Global business and Digital arts student at the University of Waterloo with an interest in the world of design! 
         </p>
         <div class="buttonlink">
           <a href="#" style="margin-bottom: 16px; width: 424px;"> View Project 2</a>
         </div>
-        <div class="buttonlink">
-          <a href="#" style="width: 313px; position: absolute; margin-top: 115px; left: 60%;"> Back</a>
-        </div>
+
       </div>
 
 
@@ -213,7 +234,7 @@
         <h4 style="text-align: left; margin-bottom: 16px">
           2024 UX Design Jam
         </h4>
-        <p style="text-align: left; margin-bottom: 64px;">
+        <p style="text-align: left; margin-bottom: 64px; height: 96px;">
           Hi, my name is Andrew Ellyatt, I am a 2nd year Global business and Digital arts student at the University of Waterloo with an interest in the world of design! 
         </p>
         <div class="buttonlink">
@@ -221,13 +242,12 @@
         </div>
       </div>
 
-
-
-
-
-
-
-      <span class="dot"></span>
+      <div class="backbuttonspace" style="position: relative;">
+        <span class="dot" style="position: absolute; z-index: 1;"></span>
+        <div class="buttonlink" style="position: relative; z-index: 2; text-align: center; top: 50%; transform: translateY(-50%); margin-top: 25px;">
+          <a href="#" style="width: 313px; display: inline-block;">Back</a>
+        </div>
+      </div>
     </div>
 
 
